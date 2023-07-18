@@ -10,28 +10,5 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 ## Notes
 
-All student notes should be written here.
-
-How to write `Code Examples` in markdown
-
-for JS:
-
-```javascript
-const data = 'Howdy';
-```
-
-for HTML:
-
-```html
-<div>
-  <p>This is text content</p>
-</div>
-```
-
-for CSS:
-
-```css
-div {
-  width: 100%;
-}
-```
+1. JSX is a syntax extension for javascript that allows for HTML-like markup to be written inside a javascript file.
+2. As React components are javascript functions, the rendering logic and the markup are grouped together.
