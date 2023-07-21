@@ -7,11 +7,7 @@ export default function ToggleButton({ text, color }) {
 
   const handleClick = () => {
     console.log('before setter', isClicked);
-    if (isClicked === false) {
-      setIsClicked(true);
-    } else {
-      setIsClicked(false);
-    }
+    setIsClicked(isClicked ? false : true);
     console.log('after setter', isClicked);
   };
 
