@@ -1,0 +1,31 @@
+button {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.cold {
+  color: white;
+  background-color: rgb(36, 0, 51);
+}
+
+.cool {
+  color: white;
+  background-color: darkslateblue;
+}
+
+.lukewarm {
+  color: white;
+  background-color: orangered;
+}
+
+.warm {
+  background-color: sandybrown;
+}
+
+.hot {
+  background-color: yellow;
+}
+
+.superhot {
+  background-color: white;
+}
