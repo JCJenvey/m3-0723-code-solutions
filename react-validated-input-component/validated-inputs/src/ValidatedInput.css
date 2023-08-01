@@ -1,0 +1,27 @@
+.border {
+  border-radius: 0;
+}
+
+.error-text {
+  color: red;
+  font-size: 14px;
+  display: block;
+}
+
+.check,
+.cross {
+  padding-left: 50px;
+  font-size: 50px;
+}
+
+.check {
+  color: green;
+}
+
+.cross {
+  color: red;
+}
+
+.hide {
+  display: none;
+}
