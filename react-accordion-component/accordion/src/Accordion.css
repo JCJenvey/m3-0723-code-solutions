@@ -1,0 +1,24 @@
+li {
+  list-style: none;
+}
+
+button {
+  width: 280px;
+  text-align: start;
+  font-size: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.text {
+  width: 266.4px;
+  font-size: 12px;
+  border: 1px black solid;
+  padding: 1px 6px;
+}
+
+.hide {
+  display: none;
+}
