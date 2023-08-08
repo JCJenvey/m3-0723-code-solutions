@@ -1,0 +1,56 @@
+button:hover {
+  cursor: pointer;
+}
+
+.menuButton {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.background {
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: all;
+}
+
+.hide {
+  display: none;
+}
+
+.drawer {
+  z-index: 1;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 253px;
+  padding-left: 30px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.closed {
+  transform: translateX(-283px);
+}
+
+.menu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menuItem {
+  border: none;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 0;
+}
