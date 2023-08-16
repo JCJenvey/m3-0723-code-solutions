@@ -1,0 +1,37 @@
+img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.carousel {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.arrow {
+  margin: auto;
+  font-size: 40px;
+}
+
+.dot {
+  padding: 0 5px;
+}
+
+.progress-dot {
+  margin: auto;
+  padding-top: 10px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.dot:hover {
+  cursor: pointer;
+}
